@@ -1,0 +1,4 @@
+lessons
+*.pyc
+__pycache__
+.idea
