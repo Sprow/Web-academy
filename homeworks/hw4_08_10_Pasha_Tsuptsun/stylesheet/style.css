@@ -118,7 +118,7 @@ nav ul li a:hover {
 .main-h button {
     padding: 10px 25px;
     border: none;
-    background-color: darkolivegreen;
+    background-color: #a3cd8c;
     border-radius: 16px;
     text-transform: uppercase;
     color: white;
@@ -164,6 +164,10 @@ nav ul li a:hover {
     height: auto;
 }
 
+.second-block__title {
+    text-transform: uppercase;
+}
+
 .second-block__btn {
     padding: 15px 25px;
     border: 2px solid #a2cd8c;
@@ -179,7 +183,7 @@ nav ul li a:hover {
     display: inline-block;
     background: url("../img/arrow.svg") 0 0 no-repeat;
     vertical-align: middle;
-    width: 7px;
+    width: 9px;
     height: 19px;
     margin-left: 10px;
 }
@@ -238,14 +242,17 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-.fourth-block__btn:after {
-    content: '';
+.test:after {
+    content: ' ';
     display: inline-block;
+    position: absolute;
     background: url("../img/arrow.svg") 0 0 no-repeat;
     vertical-align: middle;
-    width: 7px;
+    width: 9px;
     height: 19px;
-    margin-left: 10px;
+    margin-top: 65px;
+    margin-left: -20px;
+    /*margin-right: 10px;*/
 }
 
 .fourth-block__column2 {
@@ -453,12 +460,26 @@ nav ul li a:hover {
     border-color: white;
 }
 
+.block-7-8 {
+    /*height: 807px;*/
+    position: relative;
+
+}
+
 .block-7-8 .form {
-    position: fixed;
+    position: absolute;
     background-color: red;
-    height: 300px;
-    width: 300px;
+    /*width: 300px;*/
     z-index: 2;
+    /*bottom: 30%;*/
+    /*left: 38%;*/
+    /*top: -1%;*/
+    /*transform: translate(20%, 150%);*/
+    width: 25%;
+    height: 40%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 .seventh-block {
