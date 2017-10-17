@@ -12,7 +12,7 @@
 .flex-container > [class*='col-']:last-child {
     margin-right: auto;
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 659px) {
     .col-xs-1 {
         flex: 0 0 8.333333333333334%;
     }

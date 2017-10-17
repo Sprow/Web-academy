@@ -1,0 +1,48 @@
+.page-navbar {
+    border: 1px solid red;
+}
+
+.navbar__list {
+    display: flex;
+    border: 1px solid green;
+}
+
+.navbar__list-item > a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar__control {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .page-navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, .5);
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+    }
+
+    .page-navbar.showed {
+        transform: translateX(0);
+    }
+
+    .navbar__list {
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .navbar__control {
+        display: block;
+        position: absolute;;
+    }
+}
