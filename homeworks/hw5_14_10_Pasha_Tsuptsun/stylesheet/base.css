@@ -10,7 +10,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background: url('../assets/images/pattern.jpg');
 }
 
 main {
@@ -19,7 +19,6 @@ main {
     height: 100%;
     min-height: 100%;
     box-sizing: border-box;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -27,14 +26,26 @@ main {
     color: white;
 }
 
+.section1 {
+    margin-top: 20%;
+}
+
+/*.content-block:nth-child(odd) {*/
+    /*padding-right: 0.5rem;*/
+/*}*/
+
+/*.content-block:nth-child(even) {*/
+    /*padding-left: 0.5rem;*/
+/*}*/
+
 .block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8 {
     min-height: 150px;
+    border: 3px solid #1b2d63;
 }
 
 .block1, .block2, .block3, .block4, .block5, .block6, .block8 {
     display: flex;
     align-items: center;
-
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6, .img8 {
@@ -47,7 +58,6 @@ main {
     justify-self: flex-start;
     padding: 0 0 5px 5px;
 }
-
 
 .block1 {
     background-color: #3188e9;
@@ -77,9 +87,10 @@ main {
     background-color: #7e5b8d;
 }
 
-.content-block {
-    border: 3px solid white;
-}
+/*.img7 {*/
+    /*display: block;*/
+    /*height: 100%;*/
+/*}*/
 
 .text7 {
     margin: 10px 0 0 20px;
@@ -101,4 +112,25 @@ main {
 .text_7-3 {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.55);
+}
+
+@media screen and (max-width: 576px) {
+
+    .text_7-2 {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    .img7 {
+        width: 100%;
+    }
+    .text7 {
+        margin: 10px 0 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .section1 {
+        margin-top: 0;
+    }
 }
