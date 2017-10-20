@@ -1,16 +1,28 @@
 .page-navbar {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .navbar__list {
     display: flex;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
+    transition: transform 1s;
+}
+
+.navbar__list-item {
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+.navbar__list-item:hover {
+    border-bottom: 2px solid #1c1b1b;
 }
 
 .navbar__list-item > a {
     display: block;
     padding: 1rem;
     text-align: center;
+    color: #1c1b1b ;
+    font-size: 0.8rem;
 }
 
 .navbar__control {

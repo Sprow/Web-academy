@@ -1,0 +1,79 @@
+.page-footer {
+    display: flex;
+}
+
+.page-footer-left {
+    background-color: black;
+    padding-left: 5rem;
+}
+
+.page-footer-left > form {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.page-footer-left_text1 {
+    font-weight: 200;
+    color: white;
+    font-size: 0.8rem;
+
+}
+
+.page-footer-left_text2 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.page-footer__logo {
+    margin: 5rem 0;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.page-footer-left__input {
+    width: 70%;
+    height: 50px;
+    padding-left: 5px;
+    background-color: #242424;
+    border: none;
+}
+
+.page-footer .btn {
+    margin: 0;
+    width: 70px;
+    font-weight: 200;
+    background-color: white;
+}
+
+.page-footer-right {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.page-footer-right__icons {
+    margin-top: 14rem;
+    margin-left: 2rem;
+}
+
+.page-footer-right__links {
+    margin-top: 6.5rem;
+    margin-left: 1rem;
+}
+
+.page-footer-right__links a {
+    color: black;
+    margin-right: 1rem;
+}
+
+.page-footer-left:before {
+    position: absolute;
+    /*background-color: black;*/
+    margin-right: 0;
+    transform: translateX(-50%);
+    right: initial;
+    width: 600px;
+    height: 400px;
+}
