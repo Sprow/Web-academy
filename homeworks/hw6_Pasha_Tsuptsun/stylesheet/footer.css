@@ -84,3 +84,19 @@
     height: 100%;
     z-index: -1;
 }
+
+@media screen and (max-width: 575px) {
+    .page-footer {
+        flex-direction: column;
+    }
+    .page-footer-right {
+        background-color: white;
+    }
+    .page-footer-right__icons {
+        margin-top: 5rem;
+    }
+    .page-footer-right__links {
+        margin-bottom: 1rem;
+    }
+}
+
