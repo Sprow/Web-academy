@@ -51,6 +51,7 @@
 .page-footer-right {
     font-weight: 400;
     font-size: 0.9rem;
+    /*background-color: white;*/
 }
 
 .page-footer-right__icons {
@@ -68,12 +69,18 @@
     margin-right: 1rem;
 }
 
+.page-footer {
+    position: relative;
+}
+
 .page-footer-left:before {
+    content: '';
     position: absolute;
-    /*background-color: black;*/
+    background-color: black;
     margin-right: 0;
-    transform: translateX(-50%);
+    transform: translateX(-100%);
     right: initial;
-    width: 600px;
-    height: 400px;
+    width: 100vh;
+    height: 100%;
+    z-index: -1;
 }

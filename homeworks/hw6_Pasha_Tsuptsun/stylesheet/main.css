@@ -4,6 +4,10 @@
     font-weight: 200;
 }
 
+.main-baner {
+    position: relative;
+}
+
 .main-baner > img {
     width: 100%;
     margin-bottom: 40px;
@@ -21,14 +25,26 @@
     margin-bottom: 5px;
 }
 
+.g1 {
+    position: relative;
+}
+
 .main-baner-link__underline {
+    display: block;
     width: 100%;
     height: 3px;
     position: absolute;
-    /*margin-top: px;*/
-    /*transform-origin: 100% center;*/
-    /*transform: scaleX(0);*/
+    /*margin-top: 3px;*/
+    transition: transform 1.5s;
+    transform-origin: 100% center;
+    transform: scaleX(0);
     bottom: 0;
     left: 0;
     background-color: #42c5d8;
 }
+
+.main-baner-link__underline:hover {
+    transform: scaleX(1);
+    transform-origin: 0 center;
+}
+
