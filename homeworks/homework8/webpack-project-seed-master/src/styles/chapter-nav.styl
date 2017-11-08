@@ -1,0 +1,33 @@
+@import'./variables.styl';
+
+.chapter-nav
+  display flex
+  justify-content center
+  &__link
+    display block
+  &__item
+    flex-grow 0
+    flex-shrink 0
+    flex-basis 8%
+  &__thumbnail
+    width 25%
+    margin 0 auto
+    &-image
+      background-position center
+      height 40px
+      background-size contain
+      background-repeat no-repeat
+      width 100%
+    &-iphone-x
+      background-image url(../assets/images/iphone-x.svg)
+
+    &-iphone-8
+      background-image url(../assets/images/iphone8_large.svg)
+    > img
+      width 100%
+  &__title
+    text-align center
+    font-size 0.9rem
+
+.chapter-nav_light
+  background-color $globalBlockBGColorGray

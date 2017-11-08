@@ -1,0 +1,16 @@
+.lighter {
+  border: 1px solid #f00;
+  max-width: 300px;
+}
+.lighter__control {
+  padding: 1rem;
+}
+.lighter__bulb {
+  border-radius: 50%;
+  border: 1px solid #000;
+  height: 50px;
+  width: 50px;
+}
+.lighter__bulb.active {
+  background: #f00;
+}
